@@ -1,6 +1,6 @@
 I solved Medium Question no 2 out of 9 questions in the C++ programming language 
-Explanation:- I solve this problem using unordered_map we can also use a map but there is no need to sorting and if we use a map instant of unordered_map then the Time Complexity is more.
-Create a Unordered_map to store key-value pair, i.e. element-frequency pair.
+Explanation:- I solved this problem using unordered_map,we can also use a map but there is no need for sorting and if we use a map instead of unordered_map then the Time Complexity is more.
+Create an Unordered_map to store key-value pair, i.e. element-frequency pair.
 Traverse the array from start to end.  For each element in the array insert the element in unordered_map and increase its freq by 1.
-if the count of frq is >n/3 then push_back in ans  vector.
-print vector.
+if the count of freq is greater than n/3 then push_back in ans vector.
+And finally print vector.
